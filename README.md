@@ -10,8 +10,8 @@
 	Set paths in settings.conf
 	Run CloudAVWizard_Core.py, CloudAVWizard_eek.py and CloudAVWizard_clamwin.py
 	
-	Each scanner should be run on its own virtual machine/physical machine.
-	Multiple scanners can be run for each AV and scan tasks will be distributed between them
+Each scanner should be run on its own virtual machine/physical machine.
+Multiple scanners can be run for each AV and scan tasks will be distributed between them
 	
 
  An example web interface setup with usb webserver can be found in the example folder.
