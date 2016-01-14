@@ -1,0 +1,25 @@
+[Wed Jan 13 09:14:02.743762 2016] [mpm_winnt:notice] [pid 7344:tid 528] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
+[Wed Jan 13 09:14:02.743762 2016] [mpm_winnt:notice] [pid 7344:tid 528] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Wed Jan 13 09:14:02.743762 2016] [core:notice] [pid 7344:tid 528] AH00094: Command line: 'C:\\Users\\Mitchell\\Desktop\\SyncThing\\Code\\CloudAVWizard\\Supported Versions\\0.1\\WebServer/apache2/bin/httpd_usbwv8.exe -d C:/Users/Mitchell/Desktop/SyncThing/Code/CloudAVWizard/Supported Versions/0.1/WebServer/apache2'
+[Wed Jan 13 09:14:02.745791 2016] [mpm_winnt:notice] [pid 7344:tid 528] AH00418: Parent: Created child process 3544
+[Wed Jan 13 09:14:04.856881 2016] [mpm_winnt:notice] [pid 3544:tid 336] AH00354: Child: Starting 64 worker threads.
+[Wed Jan 13 12:51:16.155494 2016] [cgi:error] [pid 3544:tid 1084] [client 127.0.0.1:58731] End of script output before headers: index.py, referer: http://127.0.0.1:8080/index.py?filehash=7374a3e1871a384eb36967c274919fa4a39231af
+[Wed Jan 13 12:51:16.155494 2016] [cgi:error] [pid 3544:tid 1084] [client 127.0.0.1:58731] AH01215:   File "C:/Users/Mitchell/Desktop/SyncThing/Code/CloudAVWizard/Supported Versions/0.1/WebServer/root/index.py", line 56\r, referer: http://127.0.0.1:8080/index.py?filehash=7374a3e1871a384eb36967c274919fa4a39231af
+[Wed Jan 13 12:51:16.155494 2016] [cgi:error] [pid 3544:tid 1084] [client 127.0.0.1:58731] AH01215:     print '<a href="index.py">New Scan</a>\r, referer: http://127.0.0.1:8080/index.py?filehash=7374a3e1871a384eb36967c274919fa4a39231af
+[Wed Jan 13 12:51:16.155494 2016] [cgi:error] [pid 3544:tid 1084] [client 127.0.0.1:58731] AH01215:                                          ^\r, referer: http://127.0.0.1:8080/index.py?filehash=7374a3e1871a384eb36967c274919fa4a39231af
+[Wed Jan 13 12:51:16.156470 2016] [cgi:error] [pid 3544:tid 1084] [client 127.0.0.1:58731] AH01215: SyntaxError: EOL while scanning string literal\r, referer: http://127.0.0.1:8080/index.py?filehash=7374a3e1871a384eb36967c274919fa4a39231af
+[Wed Jan 13 12:51:19.691514 2016] [cgi:error] [pid 3544:tid 1084] [client 127.0.0.1:58779] End of script output before headers: index.py
+[Wed Jan 13 12:51:19.692504 2016] [cgi:error] [pid 3544:tid 1084] [client 127.0.0.1:58779] AH01215:   File "C:/Users/Mitchell/Desktop/SyncThing/Code/CloudAVWizard/Supported Versions/0.1/WebServer/root/index.py", line 56\r
+[Wed Jan 13 12:51:19.692504 2016] [cgi:error] [pid 3544:tid 1084] [client 127.0.0.1:58779] AH01215:     print '<a href="index.py">New Scan</a>\r
+[Wed Jan 13 12:51:19.692504 2016] [cgi:error] [pid 3544:tid 1084] [client 127.0.0.1:58779] AH01215:                                          ^\r
+[Wed Jan 13 12:51:19.692504 2016] [cgi:error] [pid 3544:tid 1084] [client 127.0.0.1:58779] AH01215: SyntaxError: EOL while scanning string literal\r
+[Wed Jan 13 12:51:21.329097 2016] [cgi:error] [pid 3544:tid 1084] [client 127.0.0.1:58781] End of script output before headers: index.py
+[Wed Jan 13 12:51:21.330107 2016] [cgi:error] [pid 3544:tid 1084] [client 127.0.0.1:58781] AH01215:   File "C:/Users/Mitchell/Desktop/SyncThing/Code/CloudAVWizard/Supported Versions/0.1/WebServer/root/index.py", line 56\r
+[Wed Jan 13 12:51:21.330107 2016] [cgi:error] [pid 3544:tid 1084] [client 127.0.0.1:58781] AH01215:     print '<a href="index.py">New Scan</a>\r
+[Wed Jan 13 12:51:21.330107 2016] [cgi:error] [pid 3544:tid 1084] [client 127.0.0.1:58781] AH01215:                                          ^\r
+[Wed Jan 13 12:51:21.330107 2016] [cgi:error] [pid 3544:tid 1084] [client 127.0.0.1:58781] AH01215: SyntaxError: EOL while scanning string literal\r
+[Wed Jan 13 12:51:22.055662 2016] [cgi:error] [pid 3544:tid 1084] [client 127.0.0.1:58782] End of script output before headers: index.py
+[Wed Jan 13 12:51:22.056626 2016] [cgi:error] [pid 3544:tid 1084] [client 127.0.0.1:58782] AH01215:   File "C:/Users/Mitchell/Desktop/SyncThing/Code/CloudAVWizard/Supported Versions/0.1/WebServer/root/index.py", line 56\r
+[Wed Jan 13 12:51:22.056626 2016] [cgi:error] [pid 3544:tid 1084] [client 127.0.0.1:58782] AH01215:     print '<a href="index.py">New Scan</a>\r
+[Wed Jan 13 12:51:22.056626 2016] [cgi:error] [pid 3544:tid 1084] [client 127.0.0.1:58782] AH01215:                                          ^\r
+[Wed Jan 13 12:51:22.056626 2016] [cgi:error] [pid 3544:tid 1084] [client 127.0.0.1:58782] AH01215: SyntaxError: EOL while scanning string literal\r
